@@ -1,7 +1,7 @@
 import React from 'react'
 import ImgItem from './ImgItem';
 
-function Item({producto,precio}) {
+function Item({producto,precio,descripcion}) {
   return (
     <div>
 
