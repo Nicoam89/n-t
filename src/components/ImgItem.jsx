@@ -1,7 +1,9 @@
+import React from 'react'
+
 function ImgItem() {
-  return (
+ return (
     <img src="" alt="" />
-  )
+ )
 }
 
 export default ImgItem
