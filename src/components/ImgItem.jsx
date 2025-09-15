@@ -6,7 +6,7 @@ import imgItem from '../assets/images/logo.jpg'
 
 function ImgItem() {
  return (
-    <img src={imgItem} alt="Lorem Lorem" />
+    <img src={imgItem} alt="Lorem"/>
  )
 }
 
