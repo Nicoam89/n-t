@@ -16,4 +16,4 @@ function ItemCount({ stock, initial }) {
   );
 }
 
-export default ItemCount;
+export default ItemCount

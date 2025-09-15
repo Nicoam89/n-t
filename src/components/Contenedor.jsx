@@ -11,4 +11,4 @@ function Contenedor({ saludo }) {
   );
 }
 
-export default Contenedor;
+export default Contenedor
