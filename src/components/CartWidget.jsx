@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import cartWidget from '../assets/images/Chart.png';
+
 function ChartWidget() {
   return (
-    <div>ChartWidget</div>
+    <div>
+
+      <cartWidget/>
+    </div>
   )
 }
 
