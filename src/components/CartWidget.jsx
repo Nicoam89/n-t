@@ -1,13 +1,10 @@
 import React from 'react';
-import cartWidget from '../assets/images/Chart.png';
+import widget from '../assets/images/Chart.png';
 
 function ChartWidget() {
   return (
-    <div>
-
-      <cartWidget/>
-    </div>
-  )
+    <img src={widget} alt="Carrito" />
+  );
 }
 
 export default ChartWidget
