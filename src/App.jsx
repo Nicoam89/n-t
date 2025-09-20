@@ -7,8 +7,9 @@ import ItemDetailContainer from "./containers/ItemDetailContainer";
 
 function App() {
   return (
+
     <BrowserRouter>
-      <Navbar />
+      <Header/>
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/category/:categoryId" element={<ItemListContainer />} />
