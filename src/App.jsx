@@ -8,8 +8,8 @@ import Header from "./components/Header";
 
 
 // Estilos globales
-import "./styles/variables.css";
-import "./styles/globals.css";
+import "../styles/variables.css";
+import "../styles/globals.css";
 
 
 function App() {
