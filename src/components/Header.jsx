@@ -6,8 +6,8 @@ import Contenedor from './Contenedor';
 function Header() {
   return (
     <header>
-        <Navbar/>
         <Logo/>
+        <Navbar/>
         <Contenedor saludo="¡Bienvenido a MiTienda Online!" />
     </header>
   )

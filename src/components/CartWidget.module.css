@@ -3,6 +3,7 @@
   height: 32px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
+  gap: 15px;
 }
 
 .icon:hover {
