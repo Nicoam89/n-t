@@ -4,7 +4,7 @@ import styles from './CartWidget.module.css';
 
 function ChartWidget() {
   return (
-    <img src={widget} alt="Carrito" />
+    <img src={widget} alt="Carrito" className={styles.icon} />
   );
 }
 

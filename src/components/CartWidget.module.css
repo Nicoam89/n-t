@@ -1,4 +1,10 @@
-.img{
-    width: 150px;
-    border-radius: 8px;
+.icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
