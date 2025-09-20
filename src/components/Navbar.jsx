@@ -5,22 +5,22 @@ import styles from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <nav>
-      <h2>NYT Home</h2>
-      <ul>
+    <nav className={styles.navbar}>
+      <h2 className={styles.logo}>NYT Home</h2>
+      <ul className={styles.navLinks}>
         <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/category/bazar">Audio</Link></li>
-        <li><Link to="/category/hogar">Bazar</Link></li>
-        <li><Link to="/category/hogar">Café & Té</Link></li>
-        <li><Link to="/category/hogar">Electro</Link></li>
-        <li><Link to="/category/hogar">Iluminacion</Link></li>
-        <li><Link to="/category/hogar">Limpieza</Link></li>
-        <li><Link to="/category/hogar">Mate</Link></li>
-        <li><Link to="/category/hogar">Cocina</Link></li>
-        <li><Link to="/category/hogar">Recipientes</Link></li>
-        <li><Link to="/category/hogar">Tech</Link></li>
-        <li><Link to="/category/hogar">Termos</Link></li>
-        <li><Link to="/category/hogar">Consolas</Link></li>     
+        <li><Link to="/category/audio">Audio</Link></li>
+        <li><Link to="/category/bazar">Bazar</Link></li>
+        <li><Link to="/category/cafe">Café & Té</Link></li>
+        <li><Link to="/category/electro">Electro</Link></li>
+        <li><Link to="/category/iluminacion">Iluminación</Link></li>
+        <li><Link to="/category/limpieza">Limpieza</Link></li>
+        <li><Link to="/category/mate">Mate</Link></li>
+        <li><Link to="/category/cocina">Cocina</Link></li>
+        <li><Link to="/category/recipientes">Recipientes</Link></li>
+        <li><Link to="/category/tech">Tech</Link></li>
+        <li><Link to="/category/termos">Termos</Link></li>
+        <li><Link to="/category/consolas">Consolas</Link></li>     
       </ul>
       <CartWidget/>
     </nav>
