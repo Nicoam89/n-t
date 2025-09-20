@@ -8,7 +8,7 @@ function Header() {
     <header>
         <Logo/>
         <Navbar/>
-        <Contenedor saludo="¡Bienvenido a MiTienda Online!" />
+        <Contenedor saludo="¡Bienvenido a Mi Tienda Online!" />
     </header>
   )
 }

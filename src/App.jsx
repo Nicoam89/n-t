@@ -6,6 +6,12 @@ import ItemListContainer from "./containers/ItemListContainer";
 import ItemDetailContainer from "./containers/ItemDetailContainer";
 import Header from "./components/Header";
 
+
+// Estilos globales
+import "./styles/variables.css";
+import "./styles/globals.css";
+
+
 function App() {
   return (
     <BrowserRouter>
